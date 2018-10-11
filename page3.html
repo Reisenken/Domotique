@@ -4,34 +4,36 @@
     <meta charset="UTF-8">
     <title>Formulaire de contact</title>
     <link rel="stylesheet"  href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Anonymous+Pro" rel="stylesheet">
 </head>
 <body>
+        <div class="bandeau">
+            <h1>Domotique Service</h1>
+        </div>
     <div id="Global">
         <div>
-                <a href="page1.html"><button name="page_accueil" class="bouton">Accueil</button></a>
-                <a href="page2.html"><button name="page_services" class="bouton">Nos Services</button></a>
-                <a href="page3.html"><button name="page_contact" class="bouton">Nous Contacter</button></a>
+            <a href="page1.html"><button name="page_suivante">Retour à l'accueil</button></a>
         </div>
         <h1>Contactez nous</h1>
         <form method="post" action="xxx.php">
             <label for="prenom">Prénom</label>
-            <input type="text" id="prenom" name="prenom">
+            <input type="text" id="prenom">
             <br>
             <br>
             <label for="nom">Nom</label>
-            <input type="text" id="nom" name="nom">
+            <input type="text" id="nom">
             <br>
             <br>
             <label for="adresse">Adresse</label>
-            <input type="text" id="adresse" name="adresse">
+            <input type="text" id="adresse">
             <br>
             <br>
             <label for="mail">E-mail</label>
-            <input type="email" id="mail" name="mail">
+            <input type="email" id="mail">
             <br>
             <br>
             <label for="objet">Quel est l'objet de votre question ?</label>
-            <select id="objet" name="objet">
+            <select name="objet">
             <option value="devis">Demander un devis</option>
             <option value="commande">Passer une commande</option>
             <option value="reclamation">Faire une réclamation</option>
@@ -40,7 +42,7 @@
             <br>
             <br>
             <label for="message">Ecrivez votre message</label>
-            <textarea id="message" name="message"></textarea>
+            <textarea id="message"></textarea>
             <br>
             <br>
             <input type="submit" value="Envoyer">

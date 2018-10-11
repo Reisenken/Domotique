@@ -30,3 +30,9 @@ button {
     height: 34px;
     font-size: x-large;
 }
+
+.bandeau {
+    border: white solid 2px;
+    margin-bottom: 30px;
+    background-color: rgb(160,230,260);
+}
