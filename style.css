@@ -1,0 +1,32 @@
+body {
+    background-color: rgb( 52, 152, 219);
+    font-size: 20px;
+    width: 80%;
+    margin: auto;
+    color:rgb( 36, 113, 163 );
+    font-family: 'Anonymous Pro', monospace;
+}
+
+h1 {
+    color: crimson;
+    text-decoration:  underline;
+    text-align: center;
+}
+
+h2 {
+    color: darkgrey;
+}
+
+#Global {
+    border: white 2px solid;
+    padding: 10px;
+    background-color: rgb(160,230,260);
+}
+
+button {
+    float : right;
+    background-color: green;
+    color: white;
+    height: 34px;
+    font-size: x-large;
+}

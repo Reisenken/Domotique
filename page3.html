@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Formulaire de contact</title>
+    <link rel="stylesheet"  href="style.css">
+</head>
+<body>
+    <div id="Global">
+        <div>
+            <a href="page1.html"><button name="page_suivante">Retour à l'accueil</button></a>
+        </div>
+        <h1>Contactez nous</h1>
+        <form method="post" action="xxx.php">
+            <label for="prenom">Prénom</label>
+            <input type="text" id="prenom">
+            <br>
+            <br>
+            <label for="nom">Nom</label>
+            <input type="text" id="nom">
+            <br>
+            <br>
+            <label for="adresse">Adresse</label>
+            <input type="text" id="adresse">
+            <br>
+            <br>
+            <label for="mail">E-mail</label>
+            <input type="email" id="mail">
+            <br>
+            <br>
+            <label for="objet">Quel est l'objet de votre question ?</label>
+            <select name="objet">
+            <option value="devis">Demander un devis</option>
+            <option value="commande">Passer une commande</option>
+            <option value="reclamation">Faire une réclamation</option>
+            <option value="question">Poser une question</option>
+            </select>
+            <br>
+            <br>
+            <label for="message">Ecrivez votre message</label>
+            <textarea id="message"></textarea>
+            <br>
+            <br>
+            <input type="submit" value="Envoyer">
+        </form>
+    </div>
+</body>
+</html>
