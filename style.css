@@ -5,16 +5,24 @@ body {
     margin: auto;
     color:rgb( 36, 113, 163 );
     font-family: 'Anonymous Pro', monospace;
+    text-align: justify;
 }
 
 h1 {
-    color: crimson;
+    color: rgb( 246, 5, 5);
     text-decoration:  underline;
     text-align: center;
+
 }
 
 h2 {
-    color: darkgrey;
+    color: rgb( 29, 68, 122 );
+    text-align: center;
+    text-decoration: underline;
+}
+
+h3 {
+    color : darkblue;
 }
 
 #Global {
@@ -25,14 +33,43 @@ h2 {
 
 button {
     float : right;
-    background-color: green;
     color: white;
     height: 34px;
     font-size: x-large;
+    background-image: url("http://img.jetbitts.com/screensavers/down/nature/wonderfull_soxstci1.gif");
+    background-repeat: no-repeat;
 }
 
 .bandeau {
     border: white solid 2px;
-    margin-bottom: 30px;
-    background-color: rgb(160,230,260);
+    margin-bottom: 50px;
+    padding-bottom: 1px;
+    background-color: rgb(160, 230, 260);
+    background-image: url("http://www.winants.be/site/wp-content/themes/WP_ESI-266ea5d/img/banniere-footer.png");
+}
+
+#formulaire {
+    border: white 5px solid;
+    border-radius: 4%;
+    padding : 2% 10% 2% 1%;
+    margin-right: 42%;
+    position: relative;
+    left: 20%;
+}
+
+li {
+    list-style-type: square;
+}
+
+#titrage {
+    background-color: rgb(44, 56, 184);
+    position : relative;
+    width: 30%;
+    left: 36%;
+}
+
+img {
+    height: 150px;
+    position: relative;
+    left: 10%;
 }
